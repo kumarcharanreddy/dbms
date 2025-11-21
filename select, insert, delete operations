@@ -1,0 +1,23 @@
+Syntax: 
+Select [distinct] column1,column2 as newname from table1,table2 
+Where condition 
+Group by columnname 
+Having condition 
+Order by columname asc|desc  Creating Students Table: 
+create table students 
+ ( 
+    Rollno varchar2(30),     name varchar2(30) 
+ ); 
+Table Created 
+Inserting Data into the table insert into students values('24B11AI200','Hema sri');
+ 1 row(s) inserted. 
+insert into students values('24B11AI166','Jaya sri'); 1 row(s) inserted. 
+ 
+ 
+Displaying Data from the table 
+select * from students; 
+select name from students; 
+select * from students9 where rollno='24B11AI200' 
+ROLLNO 	NAME 
+delete from students where rollno='24B11CS381';          1 row(s) deleted. 
+          update students  set name='Bala Raju'  where rollno='24B11CS381';          1 row(s) updated. 
